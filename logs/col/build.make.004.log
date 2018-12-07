@@ -1,0 +1,4 @@
+[ 25%] [32m[1mLinking CXX executable /home/kabeer/collision_avoidance/devel/.private/col/lib/col/box[0m
+[ 50%] [32m[1mLinking CXX shared library /home/kabeer/collision_avoidance/devel/.private/col/lib/libcol.so[0m
+[ 75%] Built target col
+[100%] Built target box

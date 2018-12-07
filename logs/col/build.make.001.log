@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target col[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/col.dir/src/box.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/kabeer/collision_avoidance/devel/.private/col/lib/libcol.so[0m
+[100%] Built target col

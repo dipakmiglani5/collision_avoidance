@@ -1,0 +1,8 @@
+prefix=/home/kabeer/collision_avoidance/devel/.private/col
+
+Name: col
+Description: Description of col
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/kabeer/collision_avoidance/devel/.private/col/lib 
+Requires: 

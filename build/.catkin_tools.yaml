@@ -1,0 +1,6 @@
+devel_space: /home/kabeer/collision_avoidance/devel
+install: false
+install_space: /home/kabeer/collision_avoidance/install
+profile: default
+source_space: /home/kabeer/collision_avoidance/src
+workspace: /home/kabeer/collision_avoidance

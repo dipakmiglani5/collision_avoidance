@@ -1,0 +1,5 @@
+Linked: (/home/kabeer/collision_avoidance/devel/.private/col/lib/libcol.so, /home/kabeer/collision_avoidance/devel/lib/libcol.so)
+Symlinking /home/kabeer/collision_avoidance/devel/lib/col/box
+Linked: (/home/kabeer/collision_avoidance/devel/.private/col/lib/pkgconfig/col.pc, /home/kabeer/collision_avoidance/devel/lib/pkgconfig/col.pc)
+Linked: (/home/kabeer/collision_avoidance/devel/.private/col/share/col/cmake/colConfig-version.cmake, /home/kabeer/collision_avoidance/devel/share/col/cmake/colConfig-version.cmake)
+Linked: (/home/kabeer/collision_avoidance/devel/.private/col/share/col/cmake/colConfig.cmake, /home/kabeer/collision_avoidance/devel/share/col/cmake/colConfig.cmake)

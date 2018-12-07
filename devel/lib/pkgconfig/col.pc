@@ -1,0 +1,1 @@
+/home/kabeer/collision_avoidance/devel/.private/col/lib/pkgconfig/col.pc

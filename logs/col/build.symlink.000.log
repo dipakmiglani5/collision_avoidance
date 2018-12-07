@@ -1,0 +1,4 @@
+Symlinking /home/kabeer/collision_avoidance/devel/lib/libcol.so
+Symlinking /home/kabeer/collision_avoidance/devel/lib/pkgconfig/col.pc
+Symlinking /home/kabeer/collision_avoidance/devel/share/col/cmake/colConfig-version.cmake
+Symlinking /home/kabeer/collision_avoidance/devel/share/col/cmake/colConfig.cmake

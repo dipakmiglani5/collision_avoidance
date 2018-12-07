@@ -1,0 +1,6 @@
+col
+/home/kabeer/collision_avoidance/devel/.private/col/lib/libcol.so /home/kabeer/collision_avoidance/devel/lib/libcol.so
+/home/kabeer/collision_avoidance/devel/.private/col/lib/col/box /home/kabeer/collision_avoidance/devel/lib/col/box
+/home/kabeer/collision_avoidance/devel/.private/col/lib/pkgconfig/col.pc /home/kabeer/collision_avoidance/devel/lib/pkgconfig/col.pc
+/home/kabeer/collision_avoidance/devel/.private/col/share/col/cmake/colConfig-version.cmake /home/kabeer/collision_avoidance/devel/share/col/cmake/colConfig-version.cmake
+/home/kabeer/collision_avoidance/devel/.private/col/share/col/cmake/colConfig.cmake /home/kabeer/collision_avoidance/devel/share/col/cmake/colConfig.cmake
