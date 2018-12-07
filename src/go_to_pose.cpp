@@ -9,7 +9,7 @@
 geometry_msgs::Point p1, p2, v1, vg;
 
 float a = 1.4, k1 = 1;
-float b = 0, c = 27, k2;
+float b =0, c = 27, k2;
 float modV1;
 float modVg;
 
@@ -120,7 +120,7 @@ int main(int argc, char **argv)
 		    	ROS_INFO_STREAM("Here");
 		    	ROS_INFO_STREAM(coords.pose.position);
 			}
-			else if(modV1  < 0.01 && abs(v1.z) < 0.001)
+			else if(modV1  < 0.01 && abs(v1.z) < 0.01)
 			{
 				float t1 = p1.x-(p1.x*(r1+0.3))/sqrt(p1.x*p1.x + p1.y*p1.y);
 				float t2 = p1.y-(p1.y*(r1+0.3))/sqrt(p1.x*p1.x + p1.y*p1.y);
@@ -149,9 +149,11 @@ int main(int argc, char **argv)
 		    	 	ROS_INFO_STREAM("first");
 		    	}
 		    	else 
-		    	{		
-		    	 	coords.pose.position.x = p2.x + (r + 0.3) * v1.y/modV1;
-		    		coords.pose.position.y = p2.y - (r + 0.3) * v1.x/modV1;
+		    	{	
+
+			    	 	coords.pose.position.x = p2.x + (r + 0.3) * v1.y/modV1;
+			    		coords.pose.position.y = p2.y - (r + 0.3) * v1.x/modV1;
+
 
 		    		 	ROS_INFO_STREAM("second");
 				}   // ROS_INFO_STREAM(coords.pose.position);
@@ -159,10 +161,15 @@ int main(int argc, char **argv)
 		}
 	    else
 	    {
-	    	
+	    	if(modV1  < 0.01 && abs(v1.z) < 0.01 && dOH < r0){
+				coords.pose.position.x=pH.x-(pH.x*(rH+0.3))/sqrt(pH.x*pH.x + pH.y*pH.y);
+				coords.pose.position.y=pH.y-(pH.y*(rH+0.3))/sqrt(pH.x*pH.x + pH.y*pH.y);
+		    }
+		    else{
 	    	ROS_INFO_STREAM("Go To Origin");
-	    	coords.pose.position.x=0;
-	    	coords.pose.position.y=0;
+	    		coords.pose.position.x=0;
+	    		coords.pose.position.y=0;
+	    	}
 	    }
 	    
 
